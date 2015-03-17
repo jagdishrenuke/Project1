@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+   <title> Bootstrap Example </title>
+   <meta charset = "utf-8">
+   <meta name = "viewport" content ="width = device-width, initial-scale = 1">
+   <link rel ="stylesheet" href="lib/bootstrap-3.3.2-dist/css/bootstrap.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src ="lib/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class ="container">
+   <h2> Vertical Basic Form </h2>
+   <form role = "form">
+     <div class ="form-group">
+	    <label for= "email">Email:</label>
+		<input type ="email" class ="form-control" id="email" placeholder ="Enter Email">
+	</div>
+	<div class ="form-group">
+	   <label for="pwd">Passwprd:</label>
+	   <input type="password" class ="form-control" id="pwd" placeholder ="Enter Password">
+	</div>
+	<div class = "form-group">
+	    <label for ="comment">Comment:</label>
+		<textarea class ="form-control" rows ="5" cols="10" id ="comment"></textarea>
+	</div>	
+	<p> <strong>Gender: </p>
+	<div class ="radio">
+	    <label><input type = "radio" name ="optradio">Male</label>
+	</div>
+    <div class ="radio">
+        <label><input type= "radio" name="optradio">Female</label>
+     </div>		
+	<div class ="checkbox">
+	   <label><input type ="checkbox">Remember Me </label>
+	 </div>
+    <button type ="submit" class ="btn btn-success">Submit</button>
+   </form>
+</div>
+</body>
+</html>   
